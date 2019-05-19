@@ -1,2 +1,2 @@
-# LadderSTDP
-LadderSTDP is a new STDP algorithm for SNN training, which advantage is hardware implementation feasibility
+# GradientSTDP
+GradientSTDP is a new improved STDP algorithm for SNN training, which advantage is hardware implementation feasibility
