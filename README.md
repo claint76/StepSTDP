@@ -1,3 +1,4 @@
+## StepSTDP
 <p align="center"><img width="100%" src="images/STDP.JPG"/></p>
 StepSTDP is a new improved STDP algorithm for SNN training, which has good feasibility in hardware implementation.
 It quantify the weight_change(trace)-time curve (which is exponential) to step curve.
