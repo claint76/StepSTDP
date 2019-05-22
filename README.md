@@ -29,5 +29,5 @@ issue the following to run the instance:
 cd bindsnet
 python ..\examples\mnist\eth_mnist.py
 ```
-If you encounter a problem, please check the path setting first and feel free to contact [me](dafhuang@outlook.com)
+If you encounter a problem, please check the path setting first and feel free to contact [me](malito:dafhuang@outlook.com)
 
