@@ -1,5 +1,8 @@
+<p align="center"><img width="25%" src="images/STDP.jpg"/></p>
 # StepSTDP
 StepSTDP is a new improved STDP algorithm for SNN training, which has good feasibility in hardware implementation.
+It quantify the weight_change(trace)-time curve (which is exponential) to step curve.
+
 ## Requirements
 - Python 3.6
 - BindsNET package installed (To install the package, visit [BindsNET](https://github.com/Hananel-Hazan/bindsnet))
@@ -26,8 +29,5 @@ issue the following to run the instance:
 cd bindsnet
 python ..\examples\mnist\eth_mnist.py
 ```
-If you encounter a problem, please check the path setting.
-```
-```
-Feel free to contact [me](dafhuang@outlook.com).
+If you encounter a problem, please check the path setting first and feel free to contact [me](dafhuang@outlook.com)
 
