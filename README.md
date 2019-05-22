@@ -11,7 +11,8 @@ cd bindsnet-master
 Copy the "experiment" folder to this directory.
 
 ## Getting started
-To run an instance with StepSTDP algorithm, you can replace the following Python statements in bindsnet-master\examples\mnist\eth_mnist.py
+To run an instance with StepSTDP algorithm, 
+you can replace the following Python statements in examples\mnist\eth_mnist.py 
 ```
 from bindsnet.models import DiehlAndCook2015
 network = DiehlAndCook2015(n_inpt=784, n_neurons=n_neurons, exc=exc, inh=inh, dt=dt, norm=78.4, theta_plus=1)
