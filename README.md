@@ -1,8 +1,7 @@
 ## StepSTDP
 <p align="center"><img width="100%" src="images/STDP.JPG"/></p>
 StepSTDP is a new improved STDP algorithm for SNN training, which has good feasibility in hardware implementation.
-It quantify the $W-\Delta t$ curve (which is exponential, blue curve in the top image) to step curve (orange curve in the top image). The left image is linear-cut quantization while the right image is nonlinear-cut quantization.
-
+It quantify the W-Delta_t curve (which is the blue exponential curve in the top image) to the step curve (orange curve in the top image). The left image is linear-cut quantization while the right image is nonlinear-cut quantization. W is propotional to the weight change value. Delta_t is the time interval between presynaptic synapses and postsynaptic synapses.
 ## Requirements
 - Python 3.6
 - BindsNET package installed (To install the package, visit [BindsNET](https://github.com/Hananel-Hazan/bindsnet))
