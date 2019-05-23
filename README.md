@@ -1,7 +1,7 @@
 ## StepSTDP
 <p align="center"><img width="100%" src="images/STDP.JPG"/></p>
 StepSTDP is a new improved STDP algorithm for SNN training, which has good feasibility in hardware implementation.
-It quantify the weight_change-time curve (which is exponential, blue curve in the top image) to step curve (orange curve in the top image). The left image is linear-cut quantization while the right image is nonlinear-cut quantization.
+It quantify the weight_change-time_interval curve (which is exponential, blue curve in the top image) to step curve (orange curve in the top image). The left image is linear-cut quantization while the right image is nonlinear-cut quantization.
 
 ## Requirements
 - Python 3.6
